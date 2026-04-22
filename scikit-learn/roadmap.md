@@ -139,3 +139,52 @@ Take a CSV file with missing and categorical data → clean, encode, scale, and 
 **Assignment/Project:**
 
 Use classification and regression models and evaluate them using 3+ metrics each
+
+## → Phase 5: Unsupervised Learning (Clustering)
+
+**Goal:** Group unlabeled data using similarity-based learning
+
+**Topics Covered:**
+
+- K-Means Clustering:
+  → `.fit()`, `.predict()`, `.inertia_`
+  → Elbow Method to determine `k`
+- Principal Component Analysis (PCA):
+  → Reducing dimensions
+  → `explained_variance_ratio_`, visualizing clusters
+- Visualizing clusters using scatter plots
+- Cluster Labeling and Interpretability
+
+**Assignment/Project:**
+
+Cluster customers by Age and Spending Score using Mall Customer dataset
+
+Visualize clusters and apply PCA
+
+---
+
+## → Phase 6: Model Tuning & Deployment
+
+**Goal:** Improve model accuracy and save models for reuse or deployment
+
+**Topics Covered:**
+
+**Hyperparameter Tuning:**
+
+- `GridSearchCV`
+- `RandomizedSearchCV`
+- Cross-validation
+
+**Model Saving & Loading:**
+
+- Using `joblib`
+- Using `pickle`
+
+**Pipelines:**
+
+- Automate preprocessing + modeling
+- `Pipeline()`, `ColumnTransformer()`
+
+**Assignment/Project:**
+
+Tune a KNN or Decision Tree model using GridSearch → save it → reload it → use for prediction on unseen data
