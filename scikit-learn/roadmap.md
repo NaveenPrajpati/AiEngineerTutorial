@@ -65,7 +65,7 @@ Load a dataset and explore its structure: shape, head, summary, and apply filter
 
 ---
 
-## → Phase 1.5: Exploratory Data Analysis (EDA) ⭐ NEW
+## → Phase 1.5: Exploratory Data Analysis (EDA)
 
 **Goal:** Understand data visually before building any model
 
@@ -130,16 +130,16 @@ Take a CSV file with missing and categorical data → clean, encode, scale, and 
 
 - **Regression:**
   → Linear Regression using `LinearRegression()`
-  → Ridge Regression (L2 regularization) ⭐ NEW
-  → Lasso Regression (L1 regularization) ⭐ NEW
+  → Ridge Regression (L2 regularization)  
+  → Lasso Regression (L1 regularization)  
   → When and why to use regularization
 
 - **Classification:**
   → Logistic Regression
   → K-Nearest Neighbors (KNN)
   → Decision Tree Classifier
-  → Random Forest Classifier ⭐ NEW
-  → Support Vector Machine (SVM) ⭐ NEW
+  → Random Forest Classifier  
+  → Support Vector Machine (SVM)
 
 - Model Training & Prediction:
   → `.fit(X_train, y_train)`
@@ -148,7 +148,7 @@ Take a CSV file with missing and categorical data → clean, encode, scale, and 
 
 - Underfitting vs Overfitting
   → Concepts, visual understanding, and how to fix them
-  → Bias-Variance Tradeoff ⭐ NEW
+  → Bias-Variance Tradeoff
 
 **Assignment/Project:**
 
@@ -171,7 +171,7 @@ Take a CSV file with missing and categorical data → clean, encode, scale, and 
 - Recall
 - F1 Score
 - Confusion Matrix
-- ROC-AUC Score ⭐ NEW
+- ROC-AUC Score
 - `classification_report` and `ConfusionMatrixDisplay`
 
 **For Regression:**
@@ -181,7 +181,7 @@ Take a CSV file with missing and categorical data → clean, encode, scale, and 
 - Root Mean Squared Error (RMSE)
 - R² Score
 
-**Cross-Validation:** ⭐ NEW (moved here from Phase 6)
+**Cross-Validation:**
 
 - `cross_val_score()`
 - Why cross-validation gives a more honest performance estimate than a single train/test split
@@ -208,12 +208,12 @@ Use classification and regression models and evaluate them using 3+ metrics each
   → `.fit()`, `.predict()`, `.inertia_`
   → Elbow Method to determine `k`
 
-- DBSCAN Clustering: ⭐ NEW
+- DBSCAN Clustering:  
   → Density-based approach
   → Handles non-circular clusters
   → `eps` and `min_samples` parameters
 
-- Hierarchical Clustering: ⭐ NEW
+- Hierarchical Clustering:  
   → Dendrograms
   → Agglomerative approach
 
@@ -255,7 +255,7 @@ Use classification and regression models and evaluate them using 3+ metrics each
 - Using `joblib`
 - Using `pickle`
 
-**Deployment (Intro):** ⭐ NEW
+**Deployment (Intro):**
 
 - Wrapping a model in a **Flask or FastAPI** REST API endpoint
 - Building a simple **Streamlit app** for model demos
@@ -268,7 +268,7 @@ Tune a Random Forest model using GridSearch → build a full Pipeline (preproces
 
 ---
 
-## → Capstone Project ⭐ NEW
+## → Capstone Project
 
 **Goal:** Build one complete, end-to-end ML project for your portfolio
 
