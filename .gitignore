@@ -40,3 +40,5 @@ ENV/
 .env
 .env.local
 data
+archive
+sentiment_distilbert
